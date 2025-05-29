@@ -58,11 +58,31 @@ h2 {
 .card {
   background-color: white;
   padding: 1rem;
-  border-left: 5px solid #3498db;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.card-front {
+  border-left: 5px solid #e67e22;
+}
+.card-back {
+  border-left: 5px solid #9b59b6;
+}
+.card-test {
+  border-left: 5px solid #f1c40f;
+}
+.card-devops-ci_cd {
+  border-left: 5px solid #1abc9c;
+}
+.card-aut {
+  border-left: 5px solid #e74c3c;
+}
+.card-cms {
+  border-left: 5px solid #3498db;
+}
+.card-tools {
+  border-left: 5px solid #34495e;
 }
 .card h3 {
   margin: 0 0 0.5rem;
@@ -70,14 +90,14 @@ h2 {
 }
 .card p {
   flex: 1;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  text-align: justify;
   color: #555;
 }
 .card a {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.5rem 1rem;
-  background-color: #3498db;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -85,8 +105,29 @@ h2 {
   font-weight: bold;
   transition: 200ms;
 }
-.card a:hover {
+.link-front {
+  background-color: #e67e22;
+}
+.link-back {
+  background-color: #9b59b6;
+}
+.link-test {
+  background-color: #f1c40f;
+}
+.link-devops-ci_cd {
+  background-color: #1abc9c;
+}
+.link-aut {
+  background-color: #e74c3c;
+}
+.link-cms {
+  background-color: #3498db;
+}
+.link-tools {
   background-color: #34495e;
+}
+.card a:hover {
+  background-color: #212121;
   transition: 200ms;
 }
 @media (max-width: 768px) {
